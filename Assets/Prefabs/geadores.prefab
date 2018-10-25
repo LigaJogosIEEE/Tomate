@@ -68,10 +68,11 @@ MonoBehaviour:
   maxTime: 10
   minVelocity: 10
   maxVelocity: 50
-  minTam: 2
+  minTam: 0.1
   maxTam: 3
   delay: 0.8
   minComets: 1
   maxComets: 5
-  direction: {x: 0.1, y: 0, z: -10}
+  maxTimeComet: 5
+  direction: {x: 0.1, y: 0, z: -1}
   cometModel: {fileID: 1448187621046466, guid: 4ecaced2ea6095c4191bce41f2c23093, type: 2}

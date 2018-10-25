@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33357832285856102}
   - component: {fileID: 23424215141463698}
   - component: {fileID: 114627423216337878}
+  - component: {fileID: 114405832543775504}
   m_Layer: 5
   m_Name: Cometa
   m_TagString: Untagged
@@ -57,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 728bfda7284a69245bd1e9118eb1960a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,6 +85,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1448187621046466}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114405832543775504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1448187621046466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc4f5ac0f3701d499e1ecd52feab30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetTypes: {fileID: 2100000, guid: 728bfda7284a69245bd1e9118eb1960a, type: 2}
+  gerarCores: 0
+  colorEffect: {r: 0.84313726, g: 0.13333346, b: 0.13333333, a: 0.35686275}
 --- !u!114 &114627423216337878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -97,7 +112,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocity: 0
   direction: {x: 0, y: 0, z: 0}
-  variableX: 1
-  variableY: 0
-  variableZ: 1
   maxTimeActive: 10

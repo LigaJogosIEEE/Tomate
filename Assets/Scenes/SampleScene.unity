@@ -760,11 +760,11 @@ MonoBehaviour:
   mCenter: {fileID: 0}
   mBaseSpeed: 75
   development:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1366794512}
+  - {fileID: 1068971178}
   - {fileID: 1228204081}
   - {fileID: 656667081}
-  - {fileID: 0}
+  - {fileID: 486160298}
   - {fileID: 1479919633}
   - {fileID: 1609554507}
   - {fileID: 1305127962}
@@ -1669,7 +1669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1538664530
 Transform:
   m_ObjectHideFlags: 0
