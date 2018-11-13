@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour {
     public Transform[] development;
     public int index;
     private bool clockwise;
+    public Transform positions;
 
     private void Awake() {
         startPos = transform.position;
@@ -21,6 +22,12 @@ public class PlayerController : MonoBehaviour {
     void Start () {
         index = -1;
         clockwise = true;
+        if (positions != null) {
+            development = new Transform[positions.childCount];
+            for (int i = 0; i < positions.childCount; i++) {
+                development[i] = positions.GetChild(i);
+            }
+        }
 	}
 	
 	void Update () {
